@@ -1,0 +1,10 @@
+applications:
+  - path: .
+    name: WatsonSmarterOps
+    environment_json:
+      redacted_message: '[PRIVATE DATA HIDDEN]'
+    memory: 512M
+    instances: 1
+    disk_quota: 1024M
+    services:
+      - WatsonSmarterOps-cloudantNoSQLDB
